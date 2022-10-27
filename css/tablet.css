@@ -1,0 +1,39 @@
+/*  applies to small devices (landscape phones, less than 768px) */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  body {
+    font-size: small;
+    font-weight: 200;
+  }
+  .anhcanhan {
+    display: none;
+  }
+
+  .prjimg {
+    width: 150px;
+    height: auto;
+  }
+  .container {
+    max-width: 720px;
+  }
+  table,
+  th,
+  td {
+    max-width: 150px;
+    border: none;
+  }
+  .duan02 {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+  }
+  .icon-prj {
+    display: none;
+  }
+  .icon {
+    color: black;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    box-sizing: border-box;
+  }
+}

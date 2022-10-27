@@ -1,0 +1,30 @@
+/*  applies to x-small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575px) {
+  body {
+    font-size: small;
+  }
+  .anhcanhan {
+    display: none;
+  }
+
+  .container {
+    display: block;
+    max-width: 540px;
+  }
+
+  .khungchungchi {
+    padding: auto;
+  }
+  .prjimg {
+    width: 540px;
+  }
+
+  .banner-img {
+    width: 540px;
+  }
+
+  #footer {
+    width: 540px;
+    text-align: center;
+  }
+}
